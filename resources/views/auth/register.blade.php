@@ -50,6 +50,7 @@
 
 <div class="login-content">
 <form action="{{ route('register') }}" method="POST">
+	@csrf
 <div class="form-floating mb-20px">
 <input type="text" class="form-control fs-13px h-45px border-0" placeholder="First Name" name="firstname" />
 <label for="firstname" class="d-flex align-items-center text-gray-600 fs-13px">First Name</label>
@@ -72,7 +73,7 @@
 </div>
 <div class="form-floating mb-20px">
  <select id="country" name="country"  class="form-select">
-												<option value="None">Select Country</option>
+												<option value="Nigeria">Nigeria</option>
 												<option value="Afghanistan">Afghanistan</option>
 												<option value="Åland Islands">Åland Islands</option>
 												<option value="Albania">Albania</option>
@@ -321,14 +322,8 @@
                                             <label for="phoneNumber" class="d-flex align-items-center text-gray-600 fs-13px">Country</label>
 </div>
 <div class="form-floating mb-20px">
-<input type="text" class="form-control fs-13px h-45px border-0" placeholder="Sponsor Id" value="{{ $id }}" name="sponsorId" />
-<label for="sponsorId" class="d-flex align-items-center text-gray-600 fs-13px">Sponsor Id (Optional)</label>
-</div>
-<div class="form-floating mb-20px">
-<select name="package"  class="form-select">
-    <option value="Basic">Basic</option>
-</select>
-<label for="package" class="d-flex align-items-center text-gray-600 fs-13px">Package</label>
+<input type="text" class="form-control fs-13px h-45px border-0" placeholder="Sponsor Id" value="{{ $id }}" name="sponsor" />
+<label for="sponsor" class="d-flex align-items-center text-gray-600 fs-13px">Sponsor Id (Optional)</label>
 </div>
 <div class="form-floating mb-20px">
 <input type="password" class="form-control fs-13px h-45px border-0" placeholder="Password" name="password" />
@@ -356,6 +351,8 @@ Already a member yet? Click <a href="{{ route('login') }}" class="text-white">he
 <script src="assets/js/vendor.min.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
 <script src="assets/js/app.min.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+@include('sweetalert::alert')
 
 <script src="assets/js/demo/login-v2.demo.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
 

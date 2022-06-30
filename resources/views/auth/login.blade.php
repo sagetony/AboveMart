@@ -4,7 +4,7 @@
 <!-- Mirrored from seantheme.com/color-admin/admin/html/login_v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2022 07:55:46 GMT -->
 <head>
 <meta charset="utf-8" />
-<title>Create a new Account | AboveMart </title>
+<title>Login to your Account | AboveMart </title>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
 <meta name="description" content="Create a free Account on AboveMart Platform" />
 <meta content="AboveMart" name="author" />
@@ -50,8 +50,9 @@
 
 <div class="login-content">
 <form action="{{ route('login') }}" method="POST">
+	@csrf
 <div class="form-floating mb-20px">
-<input type="text" class="form-control fs-13px h-45px border-0" placeholder="User Name" name="username" />
+<input type="text" class="form-control fs-13px h-45px border-0" placeholder="User Name" name="username" required />
 <label for="username" class="d-flex align-items-center text-gray-600 fs-13px">Username</label>
 </div>
 
@@ -93,7 +94,8 @@ Already a member yet? Click <a href="{{ route('register') }}" class="text-white"
 
 <script src="assets/js/vendor.min.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
 <script src="assets/js/app.min.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+@include('sweetalert::alert')
 
 <script src="assets/js/demo/login-v2.demo.js" type="a7059b533cf10b1ac9aabf4f-text/javascript"></script>
 

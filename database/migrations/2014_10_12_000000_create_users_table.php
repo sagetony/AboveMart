@@ -22,7 +22,9 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->string('phoneNumber');
             $table->string('country');
-            $table->string('sponsorId');
+            $table->string('mySponsorId');
+            $table->string('sponsor');
+            $table->string('photo');
             $table->string('status');
             $table->string('emailVerified');
             $table->string('rank');
