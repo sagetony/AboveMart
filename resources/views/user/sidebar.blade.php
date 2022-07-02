@@ -39,7 +39,7 @@
 </a>
 <div class="menu-submenu">
 <div class="menu-item">
-<a href="" class="menu-link">
+<a href="{{ route('profile') }}" class="menu-link">
 <div class="menu-text">Edit Profile</div>
 </a>
 </div>
@@ -61,7 +61,7 @@
 </a>
 <div class="menu-submenu">
 <div class="menu-item">
-<a href="" class="menu-link">
+<a href="{{ route('fund') }}" class="menu-link">
 <div class="menu-text">Fund Wallet <i class="fa fa-wallet text-theme"></i></div>
 </a>
 </div>

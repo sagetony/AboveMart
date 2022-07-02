@@ -1,7 +1,10 @@
 <?php
 
 use App\Http\Controllers\dashboard;
+use App\Http\Controllers\fund;
 use App\Http\Controllers\Login;
+use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\profile;
 use App\Http\Controllers\Register;
 use Illuminate\Support\Facades\Route;
 
@@ -27,3 +30,14 @@ Route::get('/login', [Login::class, "index"])->name('login');
 Route::post('/login', [Login::class, "store"])->name('login');
 
 Route::get('/dashboard', [dashboard::class, "index"])->name('dashboard');
+
+Route::get('/profile', [profile::class, "index"])->name('profile');
+Route::post('/profile', [profile::class, "updateprofile"])->name('profile');
+Route::post('/profilephoto', [profile::class, "photoupdate"])->name('profileimage');
+Route::post('/profilepass', [profile::class, "updatepassword"])->name('profilepass');
+
+Route::get('/fund', [fund::class, "index"])->name('fund');
+
+// Paystack Payment
+Route::post('/pay', [PaymentController::class, 'redirectToGateway'])->name('pay');
+Route::get('/payment/callback', [PaymentController::class, 'handleGatewayCallback']);
