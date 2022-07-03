@@ -54,9 +54,10 @@
 <tbody>
 <form action="{{ route('pay') }}" method="post">
 @csrf
+
 <tr class="highlight">
-<td class="field">Full Name</td>
-<td ><a href="javascript:;" class="text-decoration-none fw-bold"><input class="form-control" type="text" name ="name" placeholder="Enter Full Name" style="width:84%;"></a></td>
+<td class="field">Email</td>
+<td ><a href="javascript:;" class="text-decoration-none fw-bold"><input class="form-control" type="email" name ="email" placeholder="Enter Email Address" style="width:84%;"></a></td>
 </tr>
 <tr class="highlight">
 <td class="field">Amount</td>

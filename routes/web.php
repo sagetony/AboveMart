@@ -20,8 +20,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home.home');
+})->name('home');
 
 Route::get('/register', [Register::class, "index"])->name('register');
 Route::post('/register', [Register::class, "store"])->name('register');
@@ -38,6 +38,5 @@ Route::post('/profilepass', [profile::class, "updatepassword"])->name('profilepa
 
 Route::get('/fund', [fund::class, "index"])->name('fund');
 
-// Paystack Payment
-Route::post('/pay', [PaymentController::class, 'redirectToGateway'])->name('pay');
 Route::get('/payment/callback', [PaymentController::class, 'handleGatewayCallback']);
+Route::post('/pay', [PaymentController::class, 'redirectToGateway'])->name('pay');
