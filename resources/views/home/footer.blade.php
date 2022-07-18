@@ -26,7 +26,7 @@
                 >
                   <h5 class="h6 text-white">Phone Number</h5>
                   <span class="text-white opacity9 display-30"
-                    >(+44) 123 456 789</span
+                    >+(234) 818 8731 239</span
                   >
                 </div>
               </div>
@@ -44,7 +44,7 @@
                 >
                   <h5 class="h6 text-white">Email Address</h5>
                   <span class="text-white opacity9 display-30"
-                    >info@example.com</span
+                    >info@abovevtu.com</span
                   >
                 </div>
               </div>
@@ -62,7 +62,7 @@
                 >
                   <h5 class="h6 text-white">Loaction</h5>
                   <span class="text-white opacity9 display-30"
-                    >66 Guild Street 512B, North Town.</span
+                    >E-Business Hub Building Material Jos, Plateau, Nigeria.</span
                   >
                 </div>
               </div>
@@ -76,56 +76,14 @@
               data-wow-delay="200ms"
             >
               <h4 class="h5 text-white mb-1-9">
-                <span class="me-2">|</span>Newsletter
+                <span class="me-2"></span>
               </h4>
               <p class="text-white mb-4 opacity9">
                 We’re growing the last communications community to strength
                 high-quality, secure, affordable, speedy connections to effect
                 people’s lives anywhere.
               </p>
-              <form
-                class="quform newsletter-rounded"
-                action="https://yoddenhtml.websitelayout.net/quform/newsletter-two.php"
-                method="post"
-                enctype="multipart/form-data"
-                onclick=""
-              >
-                <div class="quform-elements">
-                  <div class="row">
-                    <!-- Begin Text input element -->
-                    <div class="col-md-12">
-                      <div class="quform-element m-0">
-                        <div class="quform-input">
-                          <input
-                            class="form-control"
-                            id="email_address"
-                            type="text"
-                            name="email_address"
-                            placeholder="Subscribe with us"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <!-- End Text input element -->
-
-                    <!-- Begin Submit button -->
-                    <div class="col-md-12">
-                      <div class="quform-submit-inner">
-                        <button
-                          class="btn btn-white text-primary m-0 px-3"
-                          type="submit"
-                        >
-                          <i class="fas fa-paper-plane"></i>
-                        </button>
-                      </div>
-                      <div class="quform-loading-wrap">
-                        <span class="quform-loading"></span>
-                      </div>
-                    </div>
-                    <!-- End Submit button -->
-                  </div>
-                </div>
-              </form>
+              
             </div>
             <div
               class="col-sm-6 col-lg-3 mt-2-6 wow fadeIn"
@@ -136,9 +94,8 @@
                   <span class="me-2">|</span>Quick Links
                 </h4>
                 <ul class="footer-list-style">
-                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="{{ route('home') }}">About Us</a></li>
                   <li><a href="our-services.html">Our Services</a></li>
-                  <li><a href="portfolio-3-columns.html">Portfolio</a></li>
                   <li><a href="our-packages.html">Our Pricing</a></li>
                 </ul>
               </div>
@@ -149,13 +106,12 @@
             >
               <div class="ps-lg-2-5">
                 <h4 class="h5 text-white mb-1-9">
-                  <span class="me-2">|</span>Our Services
+                  <span class="me-2">|</span>Others
                 </h4>
                 <ul class="footer-list-style">
-                  <li><a href="broadband.html">Broadband</a></li>
-                  <li><a href="wifi-internet.html">WIFI Internet</a></li>
-                  <li><a href="netfix-tv-box.html">Netfix TV Box</a></li>
-                  <li><a href="satellite-tv.html">Satellite TV</a></li>
+                  <li><a href="{{ route('register') }}">Register</a></li>
+                  <li><a href="{{ route('login') }}">Login</a></li>
+                  <li><a href="{{ route('home') }}">FAQ</a></li>
                 </ul>
               </div>
             </div>
@@ -165,34 +121,33 @@
             >
               <div class="ps-sm-2-5">
                 <h4 class="h5 text-white mb-1-9">
-                  <span class="me-2">|</span>Schedule
+                  <span class="me-2">|</span>Address
                 </h4>
                 <ul class="footer-hour-list">
                   <li>
                     <i class="ti-time text-white"></i>
                     <div>
                       <h4 class="h6 font-weight-500 text-white">
-                        Monday - Friday
-                      </h4>
+Address:                       </h4>
                       <p class="mb-0 text-white display-30">
-                        09:00 AM - 06:00 PM
+                        E-Business Hub Building Material Jos, Plateau, Nigeria
                       </p>
                     </div>
                   </li>
                   <li>
                     <i class="ti-time text-white"></i>
                     <div>
-                      <h4 class="h6 font-weight-500 text-white">Saturday</h4>
+                      <h4 class="h6 font-weight-500 text-white">Message: </h4>
                       <p class="mb-0 text-white display-30">
-                        10:00 AM - 05:00 PM
+info@abovevtu.com
                       </p>
                     </div>
                   </li>
                   <li>
                     <i class="ti-time text-white"></i>
                     <div>
-                      <h4 class="h6 font-weight-500 text-white">Sunday</h4>
-                      <p class="mb-0 text-white display-30">Closed</p>
+                      <h4 class="h6 font-weight-500 text-white">Phone:</h4>
+                      <p class="mb-0 text-white display-30">(+234) 906 2055 555</p>
                     </div>
                   </li>
                 </ul>
@@ -209,9 +164,11 @@
                 <p
                   class="d-inline-block text-white mb-0 display-30 display-lg-29"
                 >
-                  &copy; <span class="current-year"></span> Yodden Powered By
+                  &copy; <span class="current-year"></span> Copyright.
+
+
                   <a href="#!" class="text-primary white-hover"
-                    >Website Design Templates</a
+                    > All Rights Reserved By AboveVTU</a
                   >
                 </p>
               </div>
@@ -219,7 +176,7 @@
                 <p
                   class="text-white d-inline-block font-weight-600 mb-0 align-middle me-3"
                 >
-                  Follw Us:
+                  Follow Us:
                 </p>
                 <ul class="footer-social-style">
                   <li>
@@ -241,25 +198,6 @@
         </div>
       </footer>
     </div>
-
-    <!-- BUY TEMPLATE
-    ================================================== -->
-    <div class="buy-theme alt-font d-none d-lg-inline-block">
-      <a
-        href="https://themeforest.net/item/yodden-broadband-internet-services-html-template/37151476"
-        target="_blank"
-        ><i class="fas fa-cart-plus"></i><span>Buy Template</span></a
-      >
-    </div>
-
-    <div class="all-demo alt-font d-none d-lg-inline-block">
-      <a
-        href="https://themeforest.net/user/websitedesigntemplates"
-        target="_blank"
-        ><i class="far fa-envelope"></i><span>Quick Question?</span></a
-      >
-    </div>
-
     <!-- SCROLL TO TOP
     ================================================== -->
     <a href="#!" class="scroll-to-top"
@@ -295,5 +233,4 @@
     <!-- all js include end -->
   </body>
 
-  <!-- Mirrored from yoddenhtml.websitelayout.net/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Jul 2022 19:37:07 GMT -->
 </html>

@@ -4,10 +4,10 @@
 <!-- Mirrored from seantheme.com/color-admin/admin/html/login_v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Jun 2022 07:55:46 GMT -->
 <head>
 <meta charset="utf-8" />
-<title>Login to your Account | AboveMart </title>
+<title>Login to your Account | AboveVTU </title>
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
-<meta name="description" content="Create a free Account on AboveMart Platform" />
-<meta content="AboveMart" name="author" />
+<meta name="description" content="Create a free Account on AboveVTU Platform" />
+<meta content="AboveVTU" name="author" />
 
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
 <link href="assets/css/vendor.min.css" rel="stylesheet" />
@@ -38,9 +38,9 @@
 <div class="login-header">
 <div class="brand">
 <div class="d-flex align-items-center">
-<span class="logo"></span> <b>Above</b> Mart
+<span class="logo"></span> <b>Above</b> VTU
 </div>
-<small>Get Started With AboveMart Platform</small>
+<small>Get Started With AboveVTU Platform</small>
 </div>
 <div class="icon">
 <i class="fa fa-lock"></i>

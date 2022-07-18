@@ -15,7 +15,7 @@
                 <div class="col-md-10 col-lg-8">
                   <h1 class="mb-2-2 title">
                     Explore Over
-                    <span class="font-weight-400">World Broadband</span>
+                    <span class="font-weight-400">World AboveVTU</span>
                   </h1>
                   <p
                     class="display-28 w-sm-95 w-md-90 mb-2-2 opacity8 d-none d-sm-block"
@@ -23,10 +23,10 @@
                     We offer the excessive speed, secure, and dependable net
                     connection that helps you to do what you like online.
                   </p>
-                  <a href="aboutus.html" class="butn me-2 my-1 my-sm-0">
+                  <a href="{{ route('aboutus') }}" class="butn me-2 my-1 my-sm-0">
                     <span>Read More</span>
                   </a>
-                  <a href="contactus.html" class="butn secondary my-1 my-sm-0"
+                  <a href="{{ route('contact') }}" class="butn secondary my-1 my-sm-0"
                     >Contact Us</a
                   >
                 </div>
@@ -53,10 +53,10 @@
                     We offer the excessive speed, secure, and dependable net
                     connection that helps you to do what you like online.
                   </p>
-                  <a href="aboutus.html" class="butn me-2 my-1 my-sm-0">
+                 <a href="{{ route('aboutus') }}" class="butn me-2 my-1 my-sm-0">
                     <span>Read More</span>
                   </a>
-                  <a href="contactus.html" class="butn secondary my-1 my-sm-0"
+                  <a href="{{ route('contact') }}" class="butn secondary my-1 my-sm-0"
                     >Contact Us</a
                   >
                 </div>
@@ -83,10 +83,10 @@
                     We offer the excessive speed, secure, and dependable net
                     connection that helps you to do what you like online.
                   </p>
-                  <a href="aboutus.html" class="butn me-2 my-1 my-sm-0">
+                 <a href="{{ route('aboutus') }}" class="butn me-2 my-1 my-sm-0">
                     <span>Read More</span>
                   </a>
-                  <a href="contactus.html" class="butn secondary my-1 my-sm-0"
+                  <a href="{{ route('contact') }}" class="butn secondary my-1 my-sm-0"
                     >Contact Us</a
                   >
                 </div>
@@ -144,12 +144,12 @@
                           <span class="round-shape"></span>
                         </div>
                         <h4 class="mb-4">
-                          <a href="broadband.html">Broadband</a>
+                          <a href="#">Recharge Card Purchase</a>
                         </h4>
-                        <p class="mb-0">
+                        {{-- <p class="mb-0">
                           High-speed Internet get right of entry to this is
                           constantly on & fast.
-                        </p>
+                        </p> --}}
                       </div>
                     </div>
                   </div>
@@ -165,12 +165,9 @@
                           <span class="round-shape"></span>
                         </div>
                         <h4 class="mb-4">
-                          <a href="wifi-internet.html">WIFI Internet</a>
+                          <a href="#">Internet Data Purchase</a>
                         </h4>
-                        <p class="mb-0">
-                          High-speed Internet get right of entry to this is
-                          constantly on & fast.
-                        </p>
+                      
                       </div>
                     </div>
                   </div>
@@ -186,12 +183,9 @@
                           <span class="round-shape"></span>
                         </div>
                         <h4 class="mb-4">
-                          <a href="netfix-tv-box.html">Netfix TV box</a>
+                          <a href="#">DSTV/GOTV Subscription</a>
                         </h4>
-                        <p class="mb-0">
-                          High-speed Internet get right of entry to this is
-                          constantly on & fast.
-                        </p>
+                        
                       </div>
                     </div>
                   </div>
@@ -200,19 +194,16 @@
                       <div class="card-body">
                         <div class="card-icon">
                           <img
-                            src="img/icons/icon-04.png"
+                            src="img/icons/icon-06.png"
                             class="mb-4"
                             alt="..."
                           />
                           <span class="round-shape"></span>
                         </div>
                         <h4 class="mb-4">
-                          <a href="satellite-tv.html">Satellite TV</a>
+                          <a href="#">Electricity Bills</a>
                         </h4>
-                        <p class="mb-0">
-                          High-speed Internet get right of entry to this is
-                          constantly on & fast.
-                        </p>
+                        
                       </div>
                     </div>
                   </div>
@@ -256,7 +247,7 @@
                 <div
                   class="bg-white text-center border-radius-10 p-1-9 d-inline-block position-absolute bottom-10 left-10"
                 >
-                  <h4 class="h1"><span class="countup">28</span>+</h4>
+                  <h4 class="h1"><span class="countup">4</span>+</h4>
                   <span>Years of experience</span>
                 </div>
               </div>
@@ -268,7 +259,7 @@
                   <span class="font-weight-400">World Of Recreation</span>
                 </h2>
                 <p class="lead text-primary">
-                  Broadband provider offers a higher-speed of data transmission.
+                  AboveVTU provider offers a higher-speed of data transmission.
                 </p>
                 <p class="mb-4">
                   We’ve streamlined our plans to give you the fastest internet
@@ -315,7 +306,7 @@
                       </div>
                     </div>
                     <div class="ms-2 ms-md-5">
-                      <h4 class="mb-0 h5">Sandra Braun</h4>
+                      <h4 class="mb-0 h5">Steve Ever</h4>
                       <span class="small">Senior Executive</span>
                     </div>
                   </div>
@@ -333,75 +324,7 @@
 
       <!-- COUNTER
         ================================================== -->
-      <section class="bg-primary counter-style1">
-        <div class="container position-relative z-index-9">
-          <div class="row mt-n1-9">
-            <div
-              class="col-sm-6 col-lg-3 mt-1-9 wow fadeInUp"
-              data-wow-delay="200ms"
-            >
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <h3 class="h1 text-white mb-0 countup fw-bolder count">
-                    100
-                  </h3>
-                </div>
-                <div class="flex-grow-1 ms-4">
-                  <span class="text-white">Internet<br />Package</span>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-6 col-lg-3 mt-1-9 wow fadeInUp"
-              data-wow-delay="400ms"
-            >
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <h3 class="h1 text-white mb-0 countup fw-bolder count">
-                    823
-                  </h3>
-                </div>
-                <div class="flex-grow-1 ms-4">
-                  <span class="text-white">Satisfaction<br />Clients</span>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-6 col-lg-3 mt-1-9 wow fadeInUp"
-              data-wow-delay="600ms"
-            >
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <h3 class="h1 text-white mb-0 countup fw-bolder count">
-                    250
-                  </h3>
-                </div>
-                <div class="flex-grow-1 ms-4">
-                  <span class="text-white">Available<br />Channels</span>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-sm-6 col-lg-3 mt-1-9 wow fadeInUp"
-              data-wow-delay="800ms"
-            >
-              <div class="d-flex">
-                <div class="flex-shrink-0">
-                  <h3 class="h1 text-white mb-0 countup fw-bolder count">
-                    964
-                  </h3>
-                </div>
-                <div class="flex-grow-1 ms-4">
-                  <span class="text-white">Projects<br />Completed</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="counter-shape1"></span>
-        <span class="counter-shape2"></span>
-        <span class="counter-shape3"></span>
-      </section>
+     @include('home.counter')
 
       <!-- WHY CHOOSE US
         ================================================== -->
@@ -431,7 +354,7 @@
                         <a href="#!">4K and 8K Quality</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -451,7 +374,7 @@
                         <a href="#!">Free Installation</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -471,7 +394,7 @@
                         <a href="#!">Fast Support 24/7</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -505,7 +428,7 @@
                         <a href="#!">Best Pricing</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -521,7 +444,7 @@
                         <a href="#!">Home Security</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -537,7 +460,7 @@
                         <a href="#!">Ultrafast Connect</a>
                       </h4>
                       <p class="mb-0">
-                        Broadband is provides you with to a high-speed
+                        AboveVTU is provides you with to a high-speed
                         connection to the Internet.
                       </p>
                     </div>
@@ -570,13 +493,13 @@
                     <span class="font-weight-400">Best Networking Devices</span>
                   </h2>
                   <p class="mb-1-9 text-white opacity8">
-                    Broadband is usually related and eliminates the want for
+                    AboveVTU is usually related and eliminates the want for
                     dial-up. Its significance is far-reaching; it lets in for
                     incredible and brief get entry to to information,
                     teleconferencing, information transmission, and greater in
-                    numerous capacities. Broadband is a community connection
+                    numerous capacities. AboveVTU is a community connection
                     technology that provides you with to a high-pace connection
-                    to the Internet. Broadband has come to be a need in each
+                    to the Internet. AboveVTU has come to be a need in each
                     workplace and domestic settings.
                   </p>
                   <div class="d-flex align-items-center mb-1-9">
@@ -584,13 +507,13 @@
                       <img src="img/icons/icon-01.png" alt="..." />
                     </div>
                     <div class="flex-grow-1 ms-4">
-                      <h5 class="text-white">Try Free For 1 Month</h5>
+                      <h5 class="text-white">Enjoy Our Affiliate Program</h5>
                       <span class="text-white"
                         >High-quality data of a wide bandwidth.</span
                       >
                     </div>
                   </div>
-                  <a href="aboutus.html" class="butn small">Get Started</a>
+                  <a href="{{ route('aboutus') }}" class="butn small">Get Started</a>
                 </div>
               </div>
             </div>
@@ -609,180 +532,12 @@
 
       <!-- PRICING PLANS
         ================================================== -->
-      <section>
-        <div class="container z-index-2 position-relative">
-          <div class="section-heading mb-8 wow fadeIn" data-wow-delay="100ms">
-            <span class="subtitle">Our Services</span>
-            <h2 class="w-100">
-              Explore Our <span class="font-weight-400">Best Services</span>
-            </h2>
-          </div>
-          <div class="row mt-n6 g-xxl-5">
-            <div
-              class="col-md-6 col-xl-4 mt-6 wow fadeInUp"
-              data-wow-delay="200ms"
-            >
-              <div class="card card-style6 border-0 position-relative">
-                <div
-                  class="card-header text-center bg-white p-1-9 p-sm-2-3 pt-5"
-                >
-                  <i
-                    class="ti-rss-alt card-icon top-20 start-50 translate-middle-x"
-                  ></i>
-                  <h4>Internet</h4>
-                  <h3 class="fw-bold">
-                    $55<span class="display-29"> /Per Month</span>
-                  </h3>
-                  <span class="w-80 d-block mx-auto"
-                    >For 12 mos when bundled, + taxes & equip fee</span
-                  >
-                </div>
-                <div class="card-body p-1-9 p-sm-2-9">
-                  <ul class="list-style1 mb-0">
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >Internet with a 80Mbps
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >65 + HD Channels
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >WiFi connection
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >2 devices
-                    </li>
-                  </ul>
-                  <a href="contactus.html" class="butn mt-1-9">Choose Plan</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-xl-4 mt-6 wow fadeInUp"
-              data-wow-delay="400ms"
-            >
-              <div class="card card-style6 border-0 position-relative">
-                <div
-                  class="card-header text-center bg-white p-1-9 p-sm-2-3 pt-5"
-                >
-                  <i
-                    class="ti-desktop card-icon top-20 start-50 translate-middle-x"
-                  ></i>
-                  <h4>TV</h4>
-                  <h3 class="fw-bold">
-                    $75<span class="display-29"> /Per Month</span>
-                  </h3>
-                  <span class="w-80 d-block mx-auto"
-                    >For 12 mos when bundled, + taxes & equip fee</span
-                  >
-                </div>
-                <div class="card-body p-1-9 p-sm-2-9">
-                  <ul class="list-style1 mb-0">
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >Internet with a 130Mbps
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >85 + HD Channels
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >TV connection
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >4 devices
-                    </li>
-                  </ul>
-                  <a href="contactus.html" class="butn mt-1-9">Choose Plan</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-md-6 col-xl-4 mt-6 wow fadeInUp"
-              data-wow-delay="600ms"
-            >
-              <div class="card card-style6 bg-dark border-0 position-relative">
-                <div
-                  class="card-header text-center bg-dark border-color-light-white p-1-9 p-sm-2-3 pt-5"
-                >
-                  <i class="ti-rss-alt card-icon top-20 left-30"></i>
-                  <i class="ti-desktop card-icon top-20 left-50"></i>
-                  <h4 class="text-white">Internet + TV</h4>
-                  <h3 class="fw-bold text-white">
-                    $95<span class="display-29"> /Per Month</span>
-                  </h3>
-                  <span class="w-80 d-block mx-auto text-white opacity8"
-                    >For 12 mos when bundled, + taxes & equip fee</span
-                  >
-                </div>
-                <div class="card-body p-1-9 p-sm-2-9">
-                  <ul class="list-style1 mb-0 text-white">
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >Internet with a 150Mbps
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >105 + HD Channels
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >WiFi &amp; TV connection
-                    </li>
-                    <li>
-                      <i
-                        class="ti-check display-27 align-middle text-secondary me-3 font-weight-600"
-                      ></i
-                      >Unlimited devices
-                    </li>
-                  </ul>
-                  <a href="contactus.html" class="butn mt-1-9">Choose Plan</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="d-sm-inline-block d-none p-2 bg-primary rounded-circle position-absolute right-5 bottom-25 ani-left-right"
-        ></div>
-        <div
-          class="d-sm-inline-block d-none p-2 border-secondary border border-width-2 position-absolute right-10 top-25 ani-move"
-        ></div>
-        <div
-          class="d-inline-block px-5 py-6 border position-absolute left-5 top-5 border-radius-10 ani-move"
-        ></div>
-      </section>
-
+     @include('home.plans')
+@include('home.team')
+@include('home.testimonies')
       <!-- STREAMING
         ================================================== -->
-      <section
+      {{-- <section
         class="bg-img cover-background"
         data-overlay-dark="8"
         data-background="img/bg/bg-02.jpg"
@@ -885,11 +640,11 @@
           </div>
         </div>
         <span class="streaming-shape2"></span>
-      </section>
+      </section> --}}
 
       <!-- BLOG
         ================================================== -->
-      <section>
+      {{-- <section>
         <div class="container">
           <div class="section-heading wow fadeIn" data-wow-delay="100ms">
             <span class="subtitle">Our Blog</span>
@@ -932,7 +687,7 @@
                     >
                   </h4>
                   <p class="mb-3">
-                    Broadband internet changed into described as being quicker
+                    AboveVTU internet changed into described as being quicker
                     than a conventional dial-up net connection.
                   </p>
                   <a class="link-btn text-secondary" href="blog-details.html"
@@ -975,7 +730,7 @@
                     >
                   </h4>
                   <p class="mb-3">
-                    Broadband internet changed into described as being quicker
+                    AboveVTU internet changed into described as being quicker
                     than a conventional dial-up net connection.
                   </p>
                   <a class="link-btn text-secondary" href="blog-details.html"
@@ -1018,7 +773,7 @@
                     >
                   </h4>
                   <p class="mb-3">
-                    Broadband internet changed into described as being quicker
+                    AboveVTU internet changed into described as being quicker
                     than a conventional dial-up net connection.
                   </p>
                   <a class="link-btn text-secondary" href="blog-details.html"
@@ -1029,5 +784,5 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> --}}
 @include('home.footer')

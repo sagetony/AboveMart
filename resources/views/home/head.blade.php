@@ -19,7 +19,7 @@
     />
 
     <!-- title  -->
-    <title>Above Markets - Multi-purpose Business and Investment Platform</title>
+    <title>AboveVTU - Multi-purpose Business and Investment Platform</title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="img/logos/favicon.png" />

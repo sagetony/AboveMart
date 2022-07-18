@@ -23,6 +23,22 @@ Route::get('/', function () {
     return view('home.home');
 })->name('home');
 
+Route::get('/aboutus', function () {
+    return view('home.aboutus');
+})->name('aboutus');
+
+Route::get('/services', function () {
+    return view('home.services');
+})->name('services');
+
+Route::get('/packages', function () {
+    return view('home.packages');
+})->name('packages');
+
+Route::get('/contact', function () {
+    return view('home.contact');
+})->name('contact');
+
 Route::get('/register', [Register::class, "index"])->name('register');
 Route::post('/register', [Register::class, "store"])->name('register');
 

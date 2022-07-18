@@ -37,13 +37,13 @@
                       style="display: none"
                     >
                       <li><a href="{{ route('home') }}">Home</a></li>
-                     <li><a href="{{ route('home') }}">About Us</a></li>
-                      <li><a href="{{ route('home') }}">Services</a></li>
-                      <li><a href="{{ route('home') }}">Plans</a></li>
-                      <li><a href="{{ route('home') }}">Contact</a></li>
-                        <li><a href="{{ route('register') }}">Contact</a></li>
+                     <li><a href="{{ route('aboutus') }}">About Us</a></li>
+                      <li><a href="{{ route('services') }}">Services</a></li>
+                      <li><a href="{{ route('packages') }}">Plans</a></li>
+                      <li><a href="{{ route('contact') }}">Contact</a></li>
+                        <li><a href="{{ route('register') }}">Register</a></li>
 
-                        <li><a href="{{ route('login') }}">Contact</a></li>
+                        <li><a href="{{ route('login') }}">Login</a></li>
 
                     </ul>
                     <!-- end menu area -->
@@ -51,12 +51,10 @@
                     <!-- start attribute navigation -->
                     <div class="attr-nav align-items-lg-center ms-lg-auto">
                       <ul>
-                        <li class="search">
-                          <a href="#!"><i class="fas fa-search"></i></a>
-                        </li>
+                       
                         <li class="d-none d-xl-inline-block">
-                          <a href="contactus.html" class="butn text-white sm"
-                            ><span>Free Quote</span></a
+                          <a href="{{ route('login') }}" class="butn text-white sm"
+                            ><span>Login</span></a
                           >
                         </li>
                       </ul>
